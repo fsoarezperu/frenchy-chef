@@ -1,6 +1,8 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin: 0;
 }
 
 a {
@@ -11,6 +13,32 @@ footer {
   width: 100%;
   background-color: black;
   color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  text-align: center;
+  min-height: 200px;
+}
+
+.footer_text{
+  color: rgb(143, 143, 143);
+}
+.created{
+  color: rgb(143, 143, 143);
+  font-size: 12px;
+  padding-bottom: 5px;
   position: fixed;
-  padding: 50px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.foto_bg{
+  height: 100px;
+  background-image: url("../images/foto1.jpg");
+}
+
+.grid-container {
+  display: grid;
+  grid-template: 150px;
 }
