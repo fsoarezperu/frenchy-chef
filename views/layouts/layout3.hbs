@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Latest compiled and minified CSS -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <!-- jQuery library -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+ <!-- Latest compiled JavaScript -->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel='stylesheet' href='/stylesheets/style.css' /> -->
+  <title>{{title}}</title>
+<script src="/filejs"></script>
+<!-- <script src="/views/layouts/parallax.js"></script> -->
+    </head>
+
+    <script>
+    // import Parallax from 'parallax-js'
+    $(document).ready(function(){
+      // $("button").click(function(){
+      //   $("p").slideToggle();
+      // });
+      console.log("jquery its on");
+      //  document.getElementById('vid').play();
+      var scene = document.getElementById('scene');
+      var parallaxInstance = new Parallax(scene);
+    });
+
+    $('#exampleModal').on('shown.bs.modal', function () {
+      $('#exampleModal').trigger('focus')
+    })
+
+    </script>
+<style>
+.descripcion{
+    font-size: 18px;
+    font-weight:lighter;
+    border: 0;
+    padding-bottom: 25px;
+    padding-top: 40px;
+    text-align: justify;
+}
+  .navbar{
+    border-radius: 5px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+
+  }
+  .jumbotron{
+    margin-bottom: 0px;
+  }
+</style>
+<div class="container-fluid">
+
+<!-- <div class="row fondo">
+<div class="col-lg-12">
+  video
+</div>
+</div> -->
+<!-- <div class="row">
+  <div class="col-lg-3"></div>
+  <div class="col-lg-6 alert-success"><p>Hello</p></div>
+  <div class="col-lg-3"></div>
+</div> -->
+<!-- <div class="row">
+  <div class="jumbotron jumbotron-fluid">
+    <div class="video_viewport"  style="width: 1899px; height: 512px;"> -->
+      <!-- <video  autoplay="" loop volume=1 preload=""; class="bg_video" style="width: 2410px; height: 1205px;" poster="http://files.blkltr.com/video/poster.jpg"> -->
+
+            <!-- <video loop volume=1 preload=""; class="bg_video"  poster="http://files.blkltr.com/video/poster.jpg" style="width: 1899px; height: 949.5px;">
+            <source src="images/masa-long.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+
+
+      <div id="video-controls">
+        <a class="videoPause paused"></a>
+        <a class="videoMute"></a>
+      </div> -->
+
+
+                              <!-- <div class="">
+                                <h1 data-content-field="site-title" class="site-title">
+                                              <a href="/" id="top">
+                                                 <img src="//static1.squarespace.com/static/534448f8e4b050a8ed55dddb/t/53454bf5e4b0918d393d5ae0/1581103635827/?format=1500w" alt="Masa">
+                                              </a>
+                                            </h1>
+                              </div> -->
+    <!-- </div>
+
+</div>
+</div> -->
+
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">FrenchyChef.com</h1>
+    <p class="lead">Under developtment.</p>
+  </div>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+<!-- <a class="navbar-brand" href="http://www.frenchychef.com">Frenchychef.com</a> -->
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav">
+  <li class="nav-item active">
+    <a class="nav-link" href="#">Cirele Boille <span class="sr-only">(current)</span></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Experience</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Reservations</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Private Events</a>
+  </li>
+
+  <!-- <li class="nav-item">
+    <a class="nav-link disabled" href="#">Disabled</a>
+  </li> -->
+</ul>
+</div>
+</nav>
+
+
+<div class="row">
+  <div class="col-sm-6 mx-auto">
+    <div class="card descripcion">
+      <div class="card-body ">
+        <h1>Cyriele Boille</h1>Appreciation for food started at a young age, growing up working for his family’s fish market in a town of france. From his early years of delivering fresh amazing food to neighbors on his bicycle, to prepping and grilling hundreds of fish courses to cater weddings in high school, his relationship with food has always been a way of life. Chef Masa is chef/owner of Bar Masa (located next door to Masa), Tetsu (located at 78 Leonard Street in Tribeca) and is the chef at Kappo Masa (located at 976 Madison Avenue) in partnership with famed art gallerist Larry Gagosian.
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- <div class="row">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/foto1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/foto1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/foto2.jpg" class="d-block w-100" alt="..." style="height:200px">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div> -->
+<!-- <div class="row">
+  <div class="col-sm-4">    <div class="card mx-auto"  >
+        <img src="images/foto1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div></div>
+
+</div> -->
+
+<div class="row">
+  <div class="col-sm-6 mx-auto">
+    <div class="col-sm-4">
+      <div class="card mx-auto">
+          <img src="images/foto1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card mx-auto">
+          <img src="images/foto1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card mx-auto">
+          <img src="images/foto1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="http://www.ec-automation.com/"> ec-automation.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
+
+</div>
+
+
+</html>

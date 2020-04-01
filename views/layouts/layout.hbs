@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html>
+<!-- <div id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important"></div> -->
   <head>
-    <div class="grid-container">
-      <title>{{title}}</title>
-      <link rel='stylesheet' href='/stylesheets/style.css' />
+    <!-- Latest compiled and minified CSS -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <!-- jQuery library -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+ <!-- Latest compiled JavaScript -->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <title>{{title}}</title>
     </head>
+<div class="container-fluid">
+  <!-- <div class="grid-container"> -->
+  <div class="col-lg-4">
     <body>
       {{{body}}}
     </body>
@@ -12,6 +24,26 @@
         {{> footer}}
       </footer>
 
+  </div>
+  <div class="col-lg-8">
+  <div class="card-body">
+    <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
+  </div>
+  </div>
+
+</div>
+
+
+
+
+  <!-- </div> -->
+</div>
+
 
 </html>

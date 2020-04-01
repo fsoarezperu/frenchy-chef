@@ -1,12 +1,40 @@
-body {
+/* body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   text-align: center;
   margin: 0;
+} */
+body {
+	color: #363636;
+	font-family: "PT Serif",Georgia,serif;
+	font-size: 14px;
+	font-family: "proxima-nova";
+	font-size: 12px;
+	line-height: 1.6em;
+	letter-spacing: 0px;
+	font-weight: 400;
+	font-style: normal;
 }
 
 a {
   color: #00B7FF;
+}
+
+#header {
+	position: absolute;
+	top: 0;
+	height: 54px;
+	border-bottom: 1px solid #ddd;
+}
+#header {
+	background-color: #fff;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	z-index: 8001;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+	display: block;
 }
 
 footer {
@@ -41,4 +69,96 @@ footer {
 .grid-container {
   display: grid;
   grid-template: 150px;
+}
+.video_viewport{
+  /* background-color: rgb(72, 66, 75); */
+position: relative;
+top: 0;
+overflow: hidden;
+z-index: 2;
+padding-right: 0px;
+padding-left: 0px;
+padding-top: 0px;
+}
+
+.bg_video{
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#video-controls {
+	width: 55px;
+	position: absolute;
+	bottom: 70px;
+	right: 70px;
+	z-index: 999;
+	cursor: pointer;
+}
+
+#video-controls .videoPause {
+	display: block;
+	height: 10px;
+	width: 10px;
+	float: left;
+	padding: 5px;
+	background: url(http://files.blkltr.com/video/controls.png) no-repeat -20px center;
+	background-color: rgba(0,0,0,.1);
+}
+#video-controls .videoMute {
+	display: block;
+	height: 10px;
+	width: 10px;
+	float: left;
+	margin-left: 5px;
+	padding: 5px;
+	background: url(http://files.blkltr.com/video/controls.png) no-repeat -40px center;
+	background-color: rgba(0,0,0,.1);
+}
+
+.site-title {
+	position: relative;
+	width: auto;
+	left: 4px;
+	top: -170px;
+	float: left;
+	margin-left: 25%;
+}
+.site-title {
+	font-family: "Source Sans Pro",sans-serif;
+	font-weight: normal;
+	font-family: "futura-pt";
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 12px;
+	font-weight: 400;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+	display: table-cell;
+	width: 30%;
+	vertical-align: middle;
+	line-height: 1em;
+	z-index: 8002;
+	position: relative;
+}
+
+.site-wrapper {
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.site-wrapper, .site-inner-wrapper, #content-wrapper {
+	overflow: hidden;
+}
+.fondo{
+  background-color: green;
+  min-height: 200px;
+}
+
+.jumbotron{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
 }

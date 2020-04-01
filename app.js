@@ -6,12 +6,12 @@ var logger = require('morgan');
 const exphbs = require('express-handlebars');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-
+const Parallax = require('parallax-js')
 var app = express();
 
 
 app.engine('.hbs', exphbs({
-defaultLayout: 'layout',
+defaultLayout: 'layout3',
 layoutDir:path.join(app.get('views'),'layouts') ,
 partialsDir:path.join(app.get('views'),'partials'),
 extname:'.hbs' //,
@@ -21,6 +21,11 @@ app.set('view engine','.hbs');
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
+
+
+app.get('/filejs', function(req, res) {
+res.sendFile(__dirname + '/views/layouts/parallax.js') //change this to your file path
+})
 
 app.use(logger('dev'));
 app.use(express.json());
